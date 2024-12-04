@@ -1,0 +1,17 @@
+.connection-status {
+  font-size: 1.2em;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.connection-status strong {
+  color: green;
+}
+
+.connection-status strong.Disconnected, .connection-status strong.Reconnecting {
+  color: red;
+}
